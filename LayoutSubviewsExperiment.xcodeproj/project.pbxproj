@@ -14,6 +14,7 @@
 		1775C8CC20A64D03008AB659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1775C8CA20A64D03008AB659 /* LaunchScreen.storyboard */; };
 		1775C8D720A64D03008AB659 /* LayoutSubviewsExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1775C8D620A64D03008AB659 /* LayoutSubviewsExperimentTests.swift */; };
 		1775C8E220A64D03008AB659 /* LayoutSubviewsExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1775C8E120A64D03008AB659 /* LayoutSubviewsExperimentUITests.swift */; };
+		1775C8F020A64D2E008AB659 /* SwipeGestureTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1775C8EF20A64D2E008AB659 /* SwipeGestureTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1775C8DD20A64D03008AB659 /* LayoutSubviewsExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutSubviewsExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1775C8E120A64D03008AB659 /* LayoutSubviewsExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSubviewsExperimentUITests.swift; sourceTree = "<group>"; };
 		1775C8E320A64D03008AB659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1775C8EF20A64D2E008AB659 /* SwipeGestureTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeGestureTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				1775C8C120A64D03008AB659 /* AppDelegate.swift */,
 				1775C8C320A64D03008AB659 /* ViewController.swift */,
 				1775C8C520A64D03008AB659 /* Main.storyboard */,
+				1775C8EF20A64D2E008AB659 /* SwipeGestureTestViewController.swift */,
 				1775C8C820A64D03008AB659 /* Assets.xcassets */,
 				1775C8CA20A64D03008AB659 /* LaunchScreen.storyboard */,
 				1775C8CD20A64D03008AB659 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				1775C8C420A64D03008AB659 /* ViewController.swift in Sources */,
 				1775C8C220A64D03008AB659 /* AppDelegate.swift in Sources */,
+				1775C8F020A64D2E008AB659 /* SwipeGestureTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
